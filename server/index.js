@@ -6,9 +6,9 @@ const config  = require('./config/key')
 const cookieParser = require('cookie-parser')
 const mongoose = require('mongoose')
 
-const {User} = require('./models/User')
+const {User} = require('../models/User')
 
-const {auth} = require('./middleware/auth')
+const {auth} = require('../middleware/auth')
 
 const bodyParser = require('body-parser')
 
